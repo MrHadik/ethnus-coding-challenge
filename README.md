@@ -35,4 +35,4 @@ npm run dev
 | Transactions API   | `/api/transactions`  | `page` (optional)<br>`perPage` (optional)<br>`search` (optional)<br>`month` (optional) | List of transactions with pagination details | Retrieves transactions based on page, search, and month filters.   |
 | Statistics API     | `/api/statistics`    | `month` (optional)                       | Total sale amount, sold items, not sold items | Provides statistics for a specific month.                          |
 | Bar Chart API      | `/api/barchart`      | `month` (optional)                       | Array of objects with price range and item count | Fetches data for generating a bar chart based on price ranges.     |
-|Combined API | `/api/combined`  | GET    | `month` (optional) | Retrieves aggregated data from three separate APIs for the selected month. |
+|Combined API | `/api/combined`  | GET `month` (optional) | | Retrieves aggregated data from three separate APIs for the selected month. |
